@@ -1,0 +1,69 @@
+body{
+        margin: 0;
+        padding: 0;
+}
+#details{
+    background-color: gray;
+
+
+}
+
+h3{
+    font-size: larger;
+    font-style: oblique;
+    margin-top: 30px;
+    text-decoration-thickness: 5px;
+
+}
+
+
+#section-field {
+
+    gap: 20px;
+}
+
+#anime-list h2{
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+#anime-list{
+    max-width: 1000px;
+    margin: 0 auto 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    justify-items: center;
+
+
+}
+
+#anime-list img{
+    width: 100%;
+
+
+}
+
+#anime-list button{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.anime-card{
+    margin: 5px;
+    width: 180px;
+    text-align: center;
+
+}
+
+.favoriteAnime{
+    background-color: lightblue;
+}
+
+
+#details {
+    max-width: 300px;
+    min-width: 250px;
+    padding: 0px 20px 20px 20px;
+    background: #9a9898;
+}
